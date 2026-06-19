@@ -34,8 +34,8 @@
 | Sprint | Weeks | Topic | Status |
 |--------|-------|-------|--------|
 | ✅ 0 | — | JS + Node.js Core | COMPLETED |
-| 1 | 1–2 | DSA Completion | 🔷 In Progress |
-| 2 | 3–12 | Backend API — Express + TS + PostgreSQL + Auth + Security + Testing | |
+| ✅ 1 | 1–2 | DSA Completion | COMPLETED |
+| 2 | 3–12 | Backend API — Express + TS + PostgreSQL + Auth + Security + Testing | 🔷 In Progress |
 | 3 | 13–16 | React (Frontend — Enough to Ship) | |
 | 4 | 17–19 | Python + FastAPI | |
 | ⭐ | 20–22 | Docker + Deploy + **Job Applications Start** | |
@@ -66,7 +66,7 @@
 ---
 
 <details>
-<summary>🔷 Sprint 1 — DSA Completion &nbsp;|&nbsp; Weeks 1–2 &nbsp;·&nbsp; In Progress</summary>
+<summary>✅ Sprint 1 — DSA Completion &nbsp;|&nbsp; Weeks 1–2 &nbsp;·&nbsp; COMPLETED</summary>
 
 <br>
 
@@ -99,11 +99,11 @@
 
 <br>
 
-- [ ] HashMap, HashSet — concept + collision handling (JS Map/Set)
-- [ ] LeetCode #49 (Group Anagrams)
-- [ ] LeetCode #104 (Max Depth of Binary Tree)
-- [ ] LeetCode #226 (Invert Binary Tree)
-- [ ] LeetCode #235 (LCA of BST)
+- [x] HashMap, HashSet — concept + collision handling (JS Map/Set)
+- [x] LeetCode #49 (Group Anagrams)
+- [x] LeetCode #104 (Max Depth of Binary Tree)
+- [x] LeetCode #226 (Invert Binary Tree)
+- [x] LeetCode #235 (LCA of BST)
 
 </details>
 
@@ -112,11 +112,11 @@
 
 <br>
 
-- [ ] Dijkstra — concept + basic implementation
-- [ ] LeetCode #200 (Number of Islands)
-- [ ] LeetCode #133 (Clone Graph)
-- [ ] NeetCode 150 — 5 more medium problems (Array/String category)
-- [ ] **DSA Done. Move on.** Interview prep continues parallel (2-3 problems/week)
+- [x] Dijkstra — concept + basic implementation
+- [x] LeetCode #200 (Number of Islands)
+- [x] LeetCode #133 (Clone Graph)
+- [x] NeetCode 150 — 5 more medium problems (Array/String category)
+- [x] **DSA Done. Move on.** Interview prep continues parallel (2-3 problems/week)
 
 </details>
 
