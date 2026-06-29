@@ -1,11 +1,153 @@
 # ⚙️ Backend Engineering Roadmap
 
-> Tracking my backend engineering journey: Node.js, Express, TypeScript, PostgreSQL, and Python/FastAPI.
+> Tracking my backend engineering journey: Python/FastAPI (Primary) and Node.js/Express (Secondary).
+
+---
+
+<details open>
+<summary>🟢 Phase 1 — Python Core to Advanced &nbsp;|&nbsp; Steps 1–2</summary>
+
+<br>
+
+> Master the language of AI before diving into backend frameworks.
+
+<details>
+<summary>Steps 1–2 · Python Fundamentals & Production-Ready</summary>
+
+<br>
+
+- [x] venv, pip — virtual environment
+- [ ] Variables, Data Types, Lists, Dictionaries, Sets
+- [ ] Control Flow (if/else, loops)
+- [ ] Functions, *args, **kwargs
+- [ ] List comprehension, generators, decorators
+- [ ] Type hints, dataclasses
+- [ ] Object-Oriented Programming (OOP) in Python
+- [ ] httpx, requests — API calls
+- [ ] Pydantic — data validation (FastAPI's foundation)
+- [ ] python-dotenv
+- [ ] File I/O, JSON handling
+- [ ] asyncio fundamentals — event loop, async/await, gather, tasks
+- [ ] Context managers (with statement) — resource management
+
+**Resource:** [Python for JavaScript Developers](https://www.valentinog.com/blog/python-for-js/) (free)
+**Resource:** [Corey Schafer Python Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU) (free)
+
+</details>
+
+</details>
 
 ---
 
 <details>
-<summary>✅ Phase 1 — JS + Node.js Core &nbsp;|&nbsp; COMPLETED</summary>
+<summary>🟢 Phase 2 — FastAPI (Primary Backend) &nbsp;|&nbsp; Steps 3–8</summary>
+
+<br>
+
+> The backbone of your AI Engineering identity. You will learn all core backend concepts (REST, Auth, DB) using FastAPI.
+
+<details>
+<summary>Steps 3–4 · FastAPI Fundamentals</summary>
+
+<br>
+
+- [ ] Routing — GET, POST, PUT, DELETE
+- [ ] Path parameters and Query parameters
+- [ ] Pydantic request/response models
+- [ ] Dependency injection
+- [ ] Error handling (HTTPException)
+- [ ] Custom error classes
+- [ ] Logging — structlog or loguru (Python structured logging)
+- [ ] Project folder structure for FastAPI
+- [ ] **Project:** Basic CRUD REST API (Notes/Todo)
+
+**Resource:** [FastAPI Official Tutorial](https://fastapi.tiangolo.com/tutorial/) (free, excellent)
+
+</details>
+
+<details>
+<summary>Steps 5–6 · PostgreSQL + SQLAlchemy + Alembic</summary>
+
+<br>
+
+- [ ] Tables, Relations (1:1, 1:N, M:N)
+- [ ] Joins — INNER, LEFT, RIGHT
+- [ ] Indexes, Transactions
+- [ ] Connect to PostgreSQL (SQLAlchemy + asyncpg)
+- [ ] SQLAlchemy models
+- [ ] Alembic — database migration
+- [ ] CRUD operations with SQLAlchemy
+- [ ] **Project:** User + Data management API (FastAPI + PostgreSQL)
+
+**Resource:** [Alembic Tutorial](https://alembic.sqlalchemy.org/en/latest/tutorial.html) (free)
+
+</details>
+
+<details>
+<summary>Steps 7–8 · Auth + Application Security</summary>
+
+<br>
+
+- [ ] JWT — access token + refresh token flow
+- [ ] Passlib + bcrypt — password hashing
+- [ ] FastAPI security (OAuth2 with Password (and hashing), Bearer with JWT)
+- [ ] RBAC — Role-Based Access Control
+- [ ] CORS configuration (CORSMiddleware)
+- [ ] Rate limiting in FastAPI
+- [ ] SQL injection protection (SQLAlchemy handles this)
+- [ ] Environment variable best practices (Pydantic BaseSettings)
+- [ ] **Project:** Full auth system with JWT + RBAC
+
+</details>
+
+<details>
+<summary>Step 9 · Testing</summary>
+
+<br>
+
+> Write tests like you expect the code to break — because it will.
+
+- [ ] pytest — unit testing
+- [ ] pytest-asyncio and httpx — API integration testing
+- [ ] Test folder structure — keep tests next to code
+- [ ] Mocking — DB calls, external APIs
+- [ ] Testing auth-protected routes
+- [ ] Testing error cases and edge cases
+- [ ] **Project:** Full test suite for the auth system
+
+</details>
+
+<details>
+<summary>Step 10 · API Design + Documentation + First Deployment 🚀</summary>
+
+<br>
+
+- [ ] REST conventions — naming, status codes, versioning
+- [ ] Pagination, filtering, sorting
+- [ ] API versioning (/api/v1/)
+- [ ] Auto-generated docs (Swagger UI + ReDoc — built-in in FastAPI)
+- [ ] Deploy to Railway or Render
+- [ ] HTTPS enforcement
+- [ ] Secrets management in production
+- [ ] **Project:** Blog API — FastAPI + PostgreSQL + Auth + Tests + Swagger + **Live Deployed**
+
+> **Your first deployed project. This is your portfolio cornerstone. Write a great README — in English, with screenshots.**
+
+</details>
+
+</details>
+
+---
+
+<details>
+<summary>🟡 Phase 3 — Node.js + Express (Secondary Backend) &nbsp;|&nbsp; Steps 11–13</summary>
+
+<br>
+
+> You already know the backend concepts from Phase 2. Now just map them to the Express ecosystem. This makes you a dual-stack developer, expanding job opportunities.
+
+<details>
+<summary>✅ Step 11 · JS + Node.js Core (COMPLETED)</summary>
 
 <br>
 
@@ -22,165 +164,32 @@
 
 </details>
 
----
-
 <details>
-<summary>🟢 Phase 2 — Backend API + Security &nbsp;|&nbsp; Steps 1–10</summary>
-
-<br>
-
-> The backbone of your employability. This is your primary job skill.
-
-<details>
-<summary>Steps 1–2 · Express.js Fundamentals</summary>
-
-<br>
-
-- [ ] Routing — GET, POST, PUT, DELETE
-- [ ] Middleware — custom + built-in (body-parser, cors, morgan)
-- [ ] Error handling middleware
-- [ ] MVC folder structure
-- [ ] Request/Response cycle
-- [ ] **Project:** Basic CRUD REST API (Notes/Todo)
-
-**Resource:** [Express.js Crash Course — Traversy Media](https://www.youtube.com/watch?v=CnH3kAXSrmU) (free)
-
-</details>
-
-<details>
-<summary>Steps 3–4 · TypeScript + Express</summary>
+<summary>Steps 12 · Express.js + TypeScript Fundamentals</summary>
 
 <br>
 
 - [ ] Types, Interfaces, Generics
-- [ ] Zod — runtime input validation
+- [ ] Zod — runtime input validation (similar to Pydantic)
 - [ ] ts-node, tsx setup
+- [ ] Express routing and middleware (body-parser, cors, morgan)
+- [ ] Error handling middleware in Express
 - [ ] Express project structure with TypeScript
-- [ ] Enums, Union types, Type narrowing
-- [ ] **Refactor:** Step 3-4 project → TypeScript
-
-**Resource:** [Total TypeScript — Beginner's Tutorial](https://www.totaltypescript.com/tutorials/beginners-typescript) (free)
-**Resource:** [Matt Pocock YouTube](https://www.youtube.com/@maaborern) (free)
+- [ ] **Resource:** [Express.js Crash Course](https://www.youtube.com/watch?v=CnH3kAXSrmU)
+- [ ] **Resource:** [Total TypeScript](https://www.totaltypescript.com/tutorials/beginners-typescript)
 
 </details>
 
 <details>
-<summary>Steps 5–6 · PostgreSQL + Prisma</summary>
+<summary>Step 13 · Prisma, Auth & Testing in Node</summary>
 
 <br>
 
-- [ ] Tables, Relations (1:1, 1:N, M:N)
-- [ ] Joins — INNER, LEFT, RIGHT
-- [ ] Indexes, Transactions
-- [ ] psql CLI basics
-- [ ] Prisma schema design
+- [ ] Prisma schema design (Node equivalent of SQLAlchemy models)
 - [ ] Prisma migration + CRUD operations
-- [ ] **Project:** User + Data management API (Express + TS + Prisma)
-
-**Resource:** [PostgreSQL Tutorial](https://www.postgresqltutorial.com/) (free)
-**Resource:** [Prisma Docs — Quickstart](https://www.prisma.io/docs/getting-started) (free)
-
-</details>
-
-<details>
-<summary>Steps 7–8 · Auth + Application Security</summary>
-
-<br>
-
-- [ ] JWT — access token + refresh token flow
-- [ ] bcrypt — password hashing
-- [ ] Cookie vs localStorage — security trade-offs
-- [ ] RBAC — Role-Based Access Control
-- [ ] Protected routes middleware
-- [ ] CORS configuration
-- [ ] Helmet.js — HTTP header security
-- [ ] Rate limiting — express-rate-limit
-- [ ] SQL injection protection (Prisma handles this, but understand why)
-- [ ] XSS protection — input sanitization
-- [ ] Environment variable best practices
-- [ ] **Project:** Full auth system with JWT + RBAC + refresh tokens
-
-</details>
-
-<details>
-<summary>Step 9 · Testing</summary>
-
-<br>
-
-> Write tests like you expect the code to break — because it will.
-
-- [ ] Jest — unit testing
-- [ ] Supertest — API integration testing
-- [ ] Test folder structure — keep tests next to code
-- [ ] Mocking — DB calls, external APIs
-- [ ] Testing auth-protected routes
-- [ ] Testing error cases and edge cases — not just the happy path
-- [ ] **Project:** Full test suite for the auth system
-
-</details>
-
-<details>
-<summary>Step 10 · API Design + Documentation + First Deployment 🚀</summary>
-
-<br>
-
-- [ ] REST conventions — naming, status codes, versioning
-- [ ] Pagination, filtering, sorting
-- [ ] API versioning (/api/v1/)
-- [ ] Swagger / OpenAPI documentation
-- [ ] Deploy to Railway or Render
-- [ ] HTTPS enforcement
-- [ ] Secrets management in production
-- [ ] **Project:** Blog API — Express + TS + PostgreSQL + Auth + Tests + Swagger + **Live Deployed**
-
-> **Your first deployed project. This is your portfolio cornerstone. Write a great README — in English, with screenshots.**
-
-</details>
-
-</details>
-
----
-
-<details>
-<summary>🟡 Phase 3 — Python + FastAPI &nbsp;|&nbsp; Steps 11–13</summary>
-
-<br>
-
-> The language of the AI ecosystem. Your JS mastery will make Python fast to learn.
-
-<details>
-<summary>Step 11 · Python Production-Ready</summary>
-
-<br>
-
-- [ ] venv, pip — virtual environment
-- [ ] Type hints, dataclasses
-- [ ] httpx, requests — API calls
-- [ ] Pydantic — data validation (FastAPI's foundation)
-- [ ] python-dotenv
-- [ ] File I/O, JSON handling
-- [ ] List comprehension, generators, decorators
-
-**Resource:** [Python for JavaScript Developers](https://www.valentinog.com/blog/python-for-js/) (free)
-**Resource:** [Corey Schafer Python Tutorials](https://www.youtube.com/playlist?list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU) (free)
-
-</details>
-
-<details>
-<summary>Steps 12–13 · FastAPI</summary>
-
-<br>
-
-- [ ] Routes, async endpoints
-- [ ] Pydantic request/response models
-- [ ] Dependency injection
-- [ ] Connect to PostgreSQL (SQLAlchemy + asyncpg)
-- [ ] FastAPI security (OAuth2, API keys)
-- [ ] Auto-generated docs (Swagger UI + ReDoc — built-in)
-- [ ] pytest + httpx — testing
-- [ ] **Project:** Blog API rebuild — FastAPI version + tested + documented + **deployed**
-
-**Resource:** [FastAPI Official Tutorial](https://fastapi.tiangolo.com/tutorial/) (free, excellent)
+- [ ] JWT Auth implementation in Express
+- [ ] Jest + Supertest (Node equivalent of pytest + httpx)
+- [ ] **Project:** Blog API rebuild — Express + TS + Prisma version + tested + **deployed**
 
 </details>
 
@@ -203,7 +212,7 @@
 - [ ] Dockerfile for Node.js + Python apps
 - [ ] docker-compose — app + DB + Redis
 - [ ] Docker security basics — non-root user, minimal base
-- [ ] **Exercise:** Dockerize your Blog API (both Node.js and FastAPI versions)
+- [ ] **Exercise:** Dockerize your Blog API (both FastAPI and Node.js versions)
 
 **Resource:** [Docker Crash Course — TechWorld with Nana](https://www.youtube.com/watch?v=pg19Z8LL06w) (free)
 
@@ -216,7 +225,7 @@
 
 - [ ] GitHub Actions — test → build → deploy pipeline
 - [ ] GitHub profile polish — 4-5 pinned projects with great READMEs
-- [ ] LinkedIn update — "Backend Developer | Node.js · TypeScript · PostgreSQL · Python"
+- [ ] LinkedIn update — "Python Developer | FastAPI · Node.js · PostgreSQL"
 - [ ] Portfolio website (simple React deploy on Vercel)
 - [ ] Write 2-3 case studies: "Problem → Solution → Result"
 
@@ -241,4 +250,3 @@
 </details>
 
 ---
-
