@@ -41,12 +41,15 @@
 - [ ] Reasoning models vs standard models
 - [ ] OpenAI API — chat completions, basic setup
 - [ ] Anthropic API — Messages API, system prompts
+- [ ] Google Gemini API — free tier, generous limits (your cheapest option)
+- [ ] Ollama — run LLMs locally (Llama, Mistral, Qwen) — free, no API key, offline development
 - [ ] Token counting — reduce usage before you build
 - [ ] API key secure storage (never hardcode, never commit)
-- [ ] **Project:** AI chatbot — terminal interface + API endpoint
+- [ ] **Project:** AI chatbot — terminal interface + API endpoint (start for free with Ollama)
 
 **Resource:** [Andrej Karpathy — "Intro to LLMs"](https://www.youtube.com/watch?v=zjkBMFhNj_g) (free, 1hr)
-**Resource:** [OpenAI API Docs](https://platform.openai.com/docs) · [Anthropic API Docs](https://docs.anthropic.com/)
+**Resource:** [OpenAI API Docs](https://platform.openai.com/docs) · [Anthropic API Docs](https://docs.anthropic.com/) · [Gemini API Docs](https://ai.google.dev/docs)
+**Resource:** [Ollama](https://ollama.com/) (free, local)
 
 </details>
 
@@ -106,6 +109,11 @@
 
 > The foundation of all RAG, semantic search, and recommendation systems.
 
+**NumPy & Pandas Basics (Just enough for AI Engineering)**
+- [ ] NumPy — arrays, reshape, dot product, cosine similarity calculation
+- [ ] Pandas basics — DataFrame, read_csv, filtering, groupby (needed for RAG eval data analysis)
+
+**Embeddings**
 - [ ] What embeddings are — geometric intuition (cosine similarity)
 - [ ] Local embeddings: Sentence-Transformers (`all-MiniLM-L6-v2`) — no API, no cost
 - [ ] Paid APIs: OpenAI `text-embedding-3-small`, Voyage AI — when worth it
@@ -115,6 +123,7 @@
 - [ ] Metadata filtering and structured retrieval
 - [ ] **Project:** Semantic document search engine — fully local, no API key
 
+**Resource:** [NumPy Quickstart](https://numpy.org/doc/stable/user/quickstart.html) (free)
 **Resource:** [Sentence-Transformers Docs](https://www.sbert.net/) (free)
 **Cloud:** Google Colab free T4 GPU for embedding models
 
@@ -182,6 +191,23 @@
 
 **Resource:** [LangGraph Course — LangChain Academy](https://academy.langchain.com/) (free)
 **Resource:** [DeepLearning.AI — AI Agents in LangGraph](https://www.deeplearning.ai/short-courses/) (free)
+
+</details>
+
+<details>
+<summary>Step 13 · Fine-Tuning Awareness (Understand, don't do)</summary>
+
+<br>
+
+> You won't fine-tune models, but you must be able to explain to employers/clients when it's needed and when it's not.
+
+- [ ] Fine-tuning vs RAG vs Prompt Engineering — when to use which (decision framework)
+- [ ] LoRA / QLoRA — what it is, why it's efficient, GPU requirements (concept only)
+- [ ] OpenAI fine-tuning API — how it works (overview, no hands-on)
+- [ ] When NOT to fine-tune — most problems are solvable with better prompts + RAG
+
+**Resource:** [Hugging Face PEFT Docs](https://huggingface.co/docs/peft) (reference)
+**Resource:** [OpenAI Fine-Tuning Guide](https://platform.openai.com/docs/guides/fine-tuning) (overview)
 
 </details>
 
@@ -289,6 +315,7 @@
 - [ ] Long-running agent patterns + durable execution
 - [ ] Error recovery, retries, self-correction loops
 - [ ] Human-in-the-loop gates
+- [ ] Streaming UI — Vercel AI SDK or custom SSE frontend (users see AI response stream)
 - [ ] **Capstone Project:** End-to-end AI-powered business tool
 - [ ] Portfolio update — 9 pinned projects, case studies
 - [ ] LinkedIn rebrand → "Backend & AI Engineer"
