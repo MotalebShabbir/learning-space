@@ -21,6 +21,8 @@
 ## Phase 2 — Linear Algebra (Step 3–7)
 > The most important chapter in ML. Learn slowly, understand visually.
 > Resource: **3Blue1Brown — "Essence of Linear Algebra"** playlist
+> 
+> 💡 **Hands-on:** From Phase 2, install NumPy (`pip install numpy`). After learning each concept, verify it using NumPy. This will also be useful in AI Engineering.
 
 - [ ] What is a vector — understanding it simply
 - [ ] Vector addition and scalar multiplication
@@ -33,6 +35,7 @@
 - [ ] Concept of linear transformation
 - [ ] Cosine Similarity — understanding vector similarity (crucial for Embeddings/LLMs)
 - [ ] Eigenvalues and Eigenvectors — concept only (not computation)
+- [ ] 💻 Try it with NumPy: create a vector, calculate dot product, calculate cosine similarity
 
 ---
 
@@ -97,6 +100,7 @@
 - [ ] Sigmoid function and Logistic Regression
 - [ ] How Softmax + Cross-Entropy work together in Classification
 - [ ] Manually trace the math of a simple neural network
+- [ ] 💻 Verify with Scikit-learn: use LinearRegression, LogisticRegression to see how math translates into code
 
 ---
 
