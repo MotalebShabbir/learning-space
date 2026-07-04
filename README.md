@@ -32,6 +32,7 @@
 | **ML Math** | Linear Algebra, Calculus, Probability — 20 mins/day | [View Roadmap ➔](./ml-math-practice.md) |
 | **English Proficiency** | C1 by Year 1 · IELTS by Year 3 · Career multiplier for remote work & prompt engineering | Self-tracked |
 
+
 ---
 
 ## 📂 Projects Portfolio
@@ -52,9 +53,9 @@
 
 ### The Strategy & Advantage
 - **Non-CSE Background:** I come from a non-CSE background (English Literature) and manage my studies while tutoring. Despite having two different degrees to balance, I strictly dedicate 4 hours every single day to programming.
-- **Communication Power:** Building strong English skills empowers me in Prompt Engineering and clear communication, keeping me on track for the C1 proficiency needed to remote jobs and opportunities abroad.
+- **Communication Power:** Building strong English skills empowers me in Prompt Engineering and clear communication, keeping me on track for the C1 proficiency needed for remote jobs and opportunities abroad.
 - **The Foundation:** I'm not a traditional math student, but I have the raw logic and persistence to have solved 300+ C++ problems. I am rebuilding my ML Math foundation slowly, 20 minutes at a time.
 - **The 5-Year Goal:** Master Backend and AI Engineering first to stand out in a competitive market, then confidently pivot into **Applied Machine Learning**.
 
 ---
-*Last updated: June 2026 | Shabbir — Backend & AI Engineer*
+*Last updated: July 2026 | Shabbir — Backend & AI Engineer*
