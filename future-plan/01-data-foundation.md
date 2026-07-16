@@ -1,4 +1,4 @@
-# 📊 Data Analyst Track — Stage 1 & 2 (Market Entry Path)
+# 📊 Data Foundation — Stage 1 & 2 (Market Entry Path)
 
 > **Goal:** Acquire marketable skills in the shortest possible time and start earning.
 > **When:** Stage 1 & Stage 2 of the roadmap
@@ -295,8 +295,8 @@
 ---
 
 > **🔗 Next Stages:**
-> Stage 1-2 complete? → [Backend Engineering Track ➔](./03-backend-engineering.md) (Stage 3)
-> Backend complete? → [AI Engineering Track ➔](./04-ai-engineering.md) (Stage 4 — Ultimate Goal)
+> Stage 1-2 complete? → [Backend Engineering Track ➔](./02-backend-engineering.md) (Stage 3)
+> Backend complete? → [AI Engineering Track ➔](./05-ai-engineering.md) (Stage 5 — Ultimate Goal)
 
 ---
 

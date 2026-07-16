@@ -129,7 +129,7 @@ Stage 1 → Stage 2 → Stage 3 → Stage 4 (Optional) → Stage 5 (AI Engineer)
 | **LinkedIn** | Long-term | Profile optimize, "Open to Work" on, weekly posts শুরু করুন |
 
 **⏳ Parallel Activities:**
-- 📖 CS Fundamentals — Review DSA basics ([CS Fundamentals Checklist](./01-cs-fundamentals.md))
+- 📖 CS Fundamentals — Review DSA basics ([CS Fundamentals Checklist](./00-cs-fundamentals.md))
 - 💪 LeetCode Easy — 3-5 problems per week (আপনার 300+ CP background আছে — অন্যদের চেয়ে faster pace রাখুন)
 - 🐍 **Stage 1 শেষের দিকে Python basics শুরু করুন** — Stage 2 তে smooth transition-এর জন্য
 
@@ -460,7 +460,7 @@ Stage 1 → Stage 2 → Stage 3 → Stage 4 (Optional) → Stage 5 (AI Engineer)
 
 | Track | When to Learn | Link |
 |-------|--------------|------|
-| CS Fundamentals | Ongoing — parallel to all stages | [View ➔](./01-cs-fundamentals.md) |
+| CS Fundamentals | Ongoing — parallel to all stages | [View ➔](./00-cs-fundamentals.md) |
 | Frontend Essentials (React) | Stage 3 Phase B-তে — শুধু API demo UI বানানোর জন্য | [View ➔](./03-frontend-essentials.md) |
 
 ---

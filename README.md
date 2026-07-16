@@ -13,31 +13,29 @@
 ## 🎯 The Goal
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│   Today                                                         │
-│   ┌─────────┐     ┌──────────┐     ┌──────────┐     ┌────────┐│
-│   │ Excel + ├────→│ Python + ├────→│ Backend  ├────→│   AI   ││
-│   │ SQL +   │     │ Pandas + │     │ FastAPI +│     │Engineer││
-│   │ PowerBI │     │Analytics │     │ Docker   │     │ (Goal) ││
-│   └─────────┘     └──────────┘     └──────────┘     └────────┘│
-│   Stage 1          Stage 2          Stage 3         Stage 5    │
-│                                         │                      │
-│                                         ├─ ⚡ Optional ─────┐  │
-│                                         │   Data Engineering │  │
-│                                         │   (Airflow, dbt)   │  │
-│                                         └────────────────────┘  │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────┐
+│                                                                         │
+│   Today                                                                 │
+│   ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌─────────┐ ┌────────┐│
+│   │  Data    ├──→│ Python + ├──→│ Backend  ├──→│  Data   │→│  AI    ││
+│   │  Found.  │   │ Analytics│   │ FastAPI +│   │  Eng.   │ │Engineer││
+│   │Excel+SQL │   │ Pandas   │   │ Docker   │   │(option) │ │  🎯    ││
+│   └──────────┘   └──────────┘   └──────────┘   └─────────┘ └────────┘│
+│     Stage 1        Stage 2        Stage 3       Stage 4     Stage 5   │
+│                                                                         │
+│   CS Fundamentals (ongoing, parallel)  |  Frontend (optional)           │
+└─────────────────────────────────────────────────────────────────────────┘
 ```
 
 | Stage | Focus | I become employable as |
 |-------|-------|----------------------|
-| **1. Data Foundation** | Excel, SQL, PowerBI, Git | Jr. Analyst / Data Entry |
+ **0. CS Fundamentals** | DSA, Networking, OS | Strong Foundation |
+| **1. Data Foundation** | Excel, SQL, PowerBI, Git | Data Entry / Jr. Analyst |
 | **2. Python Analytics** | Python, Pandas, Visualization, Advanced SQL | Data Analyst / BI Analyst |
-| **3. Backend Engineering** | FastAPI, PostgreSQL, Docker, Auth, CI/CD, Cloud, DevOps | Backend Engineer / API Developer |
-| **4. Data Engineering** ⚡ | Airflow, dbt, Snowflake, PySpark | Data Engineer |
+| **3. Backend Engineering** | FastAPI, PostgreSQL, Docker, Auth, CI/CD, Cloud | Backend Engineer / API Developer |
+| **4. Data Engineering** ⚡ | Airflow, dbt, Snowflake, PySpark | Data Engineer *(optional)* |
 | **5. AI Engineering** 🎯 | LLM APIs, RAG, LangGraph, Agents, MLOps | **AI Engineer (Ultimate Goal)** |
+| **Optional:** Frontend | React, UI/UX Basics | Fullstack Capabilities |
 
 > **Strategy:** Complete each stage fully. Every stage I'm learning, every stage I'm earning.
 
@@ -49,23 +47,24 @@
 
 | # | Track | Stage | Link |
 |---|-------|-------|------|
-| 1 | CS Fundamentals (DSA, Networking, OS) | Ongoing — parallel to all stages | [View ➔](./01-cs-fundamentals.md) |
-| 2 | Data Analyst Track (Excel → Python → Analytics) | Stage 1–2 | [View ➔](./02-data-analyst-track.md) |
-| 3 | Backend Engineering (FastAPI, PostgreSQL, Docker, Cloud, DevOps) | Stage 3 | [View ➔](./03-backend-engineering.md) |
-| 4 | AI Engineering (LLMs, RAG, LangGraph, Agents) | Stage 5 | [View ➔](./05-ai-engineering.md) |
+| 1 | Data Foundation (Excel, SQL, PowerBI) + Python Analytics (Pandas, Visualization) | Stage 1 & 2 | [View ➔](./future-plan/01-data-foundation.md) |
+| 2 | Backend Engineering (FastAPI, PostgreSQL, Docker, Cloud, DevOps) | Stage 3 | [View ➔](./future-plan/02-backend-engineering.md) |
+| 3 | Data Engineering (Airflow, dbt, Spark) | Stage 4 ⚡ Optional | [View ➔](./future-plan/04-data-engineering.md) |
+| 4 | AI Engineering (LLMs, RAG, LangGraph, Agents) | Stage 5 🎯 | [View ➔](./future-plan/05-ai-engineering.md) |
 
-### Optional & Supplementary
+### Ongoing & Supplementary
 
 | Track | When | Link |
 |-------|------|------|
-| Data Engineering (Airflow, dbt, Spark) | ⚡ Optional — after Backend | [View ➔](./04-data-engineering.md) |
-| Frontend Essentials (React) | During or after Backend | [View ➔](./03-frontend-essentials.md) |
+| CS Fundamentals (DSA, Networking, OS) | 🔄 Ongoing — parallel to all stages | [View ➔](./future-plan/00-cs-fundamentals.md) |
+| Frontend Essentials (React) | ⚡ Optional — during Stage 3 | [View ➔](./future-plan/03-frontend-essentials.md) |
+| Math for ML | 🔄 Ongoing — 15 min/day | [View ➔](./future-plan/math-practice.md) |
 
 ---
 
 ## 📂 Projects Portfolio
 
-👉 **[View My Projects Showcase](./projects-showcase.md)**
+👉 **[View My Projects Showcase](./future-plan/projects-showcase.md)**
 
 ---
 
@@ -93,9 +92,10 @@ Become a **production-ready AI Engineer** who can architect, build, deploy, and 
 
 ## 📌 Career Direction & Decision Rules
 
-👉 **[Read the Full Career Direction Document](./career-direction.md)** — my decision framework, rules, motivation reminders, and what paths I will NOT take.
+👉 **[Read the Full Career Direction Document](./future-plan/career-direction.md)** — my decision framework, rules, motivation reminders, and what paths I will NOT take.
 
 ---
 
 *Last updated: July 16, 2026 | Shabbir — Aspiring AI Engineer (Currently: Stage 1)*
 *Strategy: Stepping Stone — stage by stage, no fixed timeline*
+
