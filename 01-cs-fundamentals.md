@@ -4,6 +4,7 @@
 > Based on [roadmap.sh/computer-science](https://roadmap.sh/computer-science)
 >
 > ⭐ = Already familiar from competitive programming (C/C++)
+> 🎯 = Highly relevant for Backend & AI Engineering (Focus on these)
 
 ---
 
@@ -104,7 +105,7 @@
 - [ ] Balanced Tree
 - [ ] Unbalanced Tree
 - [ ] ⭐ Heap
-- [ ] Tries
+- [ ] 🎯 Tries
 - [ ] AVL Trees
 - [ ] Red / Black Trees
 - [ ] 2-3 Search Trees
@@ -164,7 +165,7 @@
 - [ ] ⭐ Depth First Search (DFS)
 - [ ] ⭐ Dijkstra's Algorithm
 - [ ] ⭐ Bellman Ford's Algorithm
-- [ ] A* Algorithm
+- [ ] 🎯 A* Algorithm
 
 ### Backtracking
 - [ ] ⭐ Recursion — Tail & Non-Tail
@@ -188,7 +189,7 @@
 - [ ] Rabin-Karp
 
 ### Caches
-- [ ] LRU Cache
+- [ ] 🎯 LRU Cache
 - [ ] LFU Cache
 - [ ] MFU Cache
 
@@ -236,14 +237,14 @@
 
 <br>
 
-- [ ] GoF Design Patterns (Creational, Structural, Behavioral)
+- [ ] 🎯 GoF Design Patterns (Creational, Structural, Behavioral)
 - [ ] Architectural Patterns
-- [ ] Dependency Injection
+- [ ] 🎯 Dependency Injection
 - [ ] Null Object Pattern
 - [ ] Type Object Pattern
-- [ ] SOLID Principles
-- [ ] DRY / KISS / YAGNI
-- [ ] Clean Architecture
+- [ ] 🎯 SOLID Principles
+- [ ] 🎯 DRY / KISS / YAGNI
+- [ ] 🎯 Clean Architecture
 
 </details>
 
@@ -255,26 +256,26 @@
 <br>
 
 ### Scaling
-- [ ] Horizontal vs Vertical Scaling
-- [ ] Load Balancing
+- [ ] 🎯 Horizontal vs Vertical Scaling
+- [ ] 🎯 Load Balancing
 - [ ] Clustering
-- [ ] CDN
-- [ ] Proxy & Reverse Proxy
+- [ ] 🎯 CDN
+- [ ] 🎯 Proxy & Reverse Proxy
 
 ### Concepts
-- [ ] CAP Theorem
+- [ ] 🎯 CAP Theorem
 - [ ] PACELC Theorem
-- [ ] Message Queues
+- [ ] 🎯 Message Queues
 - [ ] Long Polling vs Short Polling
-- [ ] WebSockets
-- [ ] Server-Sent Events (SSE)
+- [ ] 🎯 WebSockets
+- [ ] 🎯 Server-Sent Events (SSE)
 
 ### Architectural Styles
-- [ ] REST
+- [ ] 🎯 REST
 - [ ] GraphQL
-- [ ] gRPC
-- [ ] Microservices
-- [ ] Event-Driven Architecture
+- [ ] 🎯 gRPC
+- [ ] 🎯 Microservices
+- [ ] 🎯 Event-Driven Architecture
 - [ ] Cloud Design Patterns
 
 </details>
@@ -286,21 +287,21 @@
 
 <br>
 
-- [ ] SQL vs NoSQL — when and why
-- [ ] Normalization & Denormalization
-- [ ] Entity-Relationship Model
+- [ ] 🎯 SQL vs NoSQL — when and why
+- [ ] 🎯 Normalization & Denormalization
+- [ ] 🎯 Entity-Relationship Model
 - [ ] DDL, DML, DQL, DCL
-- [ ] ACID Model
+- [ ] 🎯 ACID Model
 - [ ] BASE Model
-- [ ] Transactions
+- [ ] 🎯 Transactions
 - [ ] Locking
-- [ ] Indexes
+- [ ] 🎯 Indexes
 - [ ] Views
 - [ ] Stored Procedures
 - [ ] Database Federation
-- [ ] Replication
-- [ ] Sharding
-- [ ] CAP Theorem (database context)
+- [ ] 🎯 Replication
+- [ ] 🎯 Sharding
+- [ ] 🎯 CAP Theorem (database context)
 - [ ] PACELC Theorem
 
 </details>
@@ -314,11 +315,11 @@
 
 - [ ] OSI Model — all 7 layers
 - [ ] TCP/IP Model
-- [ ] DNS — how it works
-- [ ] HTTP / HTTPS
-- [ ] TLS & SSL
+- [ ] 🎯 DNS — how it works
+- [ ] 🎯 HTTP / HTTPS
+- [ ] 🎯 TLS & SSL
 - [ ] Sockets
-- [ ] SSH
+- [ ] 🎯 SSH
 
 </details>
 
@@ -330,9 +331,9 @@
 <br>
 
 - [ ] Public Key Cryptography
-- [ ] Hashing vs Encryption vs Encoding
-- [ ] Common Hashing Algorithms (MD5, SHA-256)
-- [ ] OWASP Top 10
+- [ ] 🎯 Hashing vs Encryption vs Encoding
+- [ ] 🎯 Common Hashing Algorithms (MD5, SHA-256)
+- [ ] 🎯 OWASP Top 10
 - [ ] Symmetric vs Asymmetric Encryption
 
 </details>
@@ -349,12 +350,12 @@
 - [ ] Registers and RAM
 - [ ] Instructions and Programs
 - [ ] CPU Cache
-- [ ] Processes vs Threads
+- [ ] 🎯 Processes vs Threads
 - [ ] Process Forking
 - [ ] Memory Management
 
 ### Concurrency
-- [ ] Lock / Mutex / Semaphore
+- [ ] 🎯 Lock / Mutex / Semaphore
 - [ ] Concurrency in Multiple Cores
 - [ ] Scheduling Algorithms
 - [ ] CPU Interrupts
@@ -383,3 +384,4 @@
 ---
 
 *⭐ = Already familiar from competitive programming problems in C/C++*
+*🎯 = Highly relevant for Backend & AI Engineering (Focus on these)*
