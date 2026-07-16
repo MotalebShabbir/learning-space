@@ -12,17 +12,17 @@
 
 | Topic | Total | Done |
 |-------|-------|------|
-| Data Structures | 20 | 0 |
-| Algorithms | 28 | 0 |
-| Complexity Theory | 7 | 0 |
-| Low Level | 8 | 0 |
-| Design Patterns | 9 | 0 |
+| Data Structures | 14 | 0 |
+| Algorithms | 18 | 0 |
+| Complexity Theory | 3 | 0 |
+| Low Level | 3 | 0 |
+| Design Patterns | 6 | 0 |
 | System Design | 18 | 0 |
 | Databases | 16 | 0 |
 | Networking | 7 | 0 |
 | Security | 5 | 0 |
 | How Computers Work | 8 | 0 |
-| **Total** | **126** | **0** |
+| **Total** | **98** | **0** |
 
 ---
 
@@ -100,19 +100,10 @@
 ### Trees
 - [ ] ⭐ Binary Tree
 - [ ] ⭐ Binary Search Tree
-- [ ] Full Binary Tree
-- [ ] Complete Binary Tree
 - [ ] Balanced Tree
-- [ ] Unbalanced Tree
 - [ ] ⭐ Heap
 - [ ] 🎯 Tries
-- [ ] AVL Trees
-- [ ] Red / Black Trees
-- [ ] 2-3 Search Trees
-- [ ] 2-3-4 Trees
 - [ ] B-Tree
-- [ ] K-D Trees
-- [ ] Skip Lists
 
 ### Graphs
 - [ ] ⭐ Directed Graph
@@ -132,14 +123,10 @@
 
 ### Asymptotic Notation
 - [ ] ⭐ Big O
-- [ ] ⭐ Big-Theta
-- [ ] ⭐ Big Omega
 - [ ] ⭐ Constant — O(1)
 - [ ] ⭐ Logarithmic — O(log n)
 - [ ] ⭐ Linear — O(n)
 - [ ] ⭐ Polynomial — O(n²)
-- [ ] ⭐ Exponential — O(2ⁿ)
-- [ ] ⭐ Factorial — O(n!)
 
 ### Searching
 - [ ] ⭐ Binary Search
@@ -175,18 +162,11 @@
 - [ ] ⭐ The Knight's Tour Problem
 
 ### Greedy Algorithms
-- [ ] ⭐ Huffman Coding
 - [ ] ⭐ Kruskal's Algorithm
 - [ ] ⭐ Prim's Algorithm
-- [ ] Ford-Fulkerson Algorithm
-- [ ] Rabin-Karp Algorithm
 
 ### String Search & Manipulation
-- [ ] Suffix Arrays
-- [ ] Brute Force Search
 - [ ] Knuth-Morris-Pratt (KMP)
-- [ ] Boyer-Moore
-- [ ] Rabin-Karp
 
 ### Caches
 - [ ] 🎯 LRU Cache
@@ -204,12 +184,7 @@
 
 - [ ] P
 - [ ] NP
-- [ ] NP Hard
-- [ ] NP Complete
 - [ ] P = NP (concept)
-- [ ] Travelling Salesman Problem
-- [ ] Knapsack Problem
-
 </details>
 
 ---
@@ -219,14 +194,9 @@
 
 <br>
 
-- [ ] Big Endian
-- [ ] Little Endian
 - [ ] Floating Point Math
 - [ ] Bitwise Operators
-- [ ] Unicode
-- [ ] ASCII
-- [ ] Character Encodings
-- [ ] UML Diagrams — Class, Usecase, Activity, Statemachine, Sequence
+- [ ] Character Encodings (UTF-8, ASCII)
 
 </details>
 
@@ -238,10 +208,7 @@
 <br>
 
 - [ ] 🎯 GoF Design Patterns (Creational, Structural, Behavioral)
-- [ ] Architectural Patterns
 - [ ] 🎯 Dependency Injection
-- [ ] Null Object Pattern
-- [ ] Type Object Pattern
 - [ ] 🎯 SOLID Principles
 - [ ] 🎯 DRY / KISS / YAGNI
 - [ ] 🎯 Clean Architecture
@@ -384,4 +351,4 @@
 ---
 
 *⭐ = Already familiar from competitive programming problems in C/C++*
-*🎯 = Highly relevant for Backend & AI Engineering (Focus on these)*
+*🎯 = Highly relevant for Backend & Data Engineering (Focus on these)*

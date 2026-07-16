@@ -1,8 +1,8 @@
-# ⚙️ Backend, DevOps & Cloud Engineering — Stage 3
+# ⚙️ Backend, DevOps & Cloud Engineering — Stage 2
 
 > **Goal:** Become a competent Backend Engineer capable of building, deploying, and maintaining production-grade web applications and APIs.
-> **When:** Stage 3 of the roadmap
-> **Pre-requisite:** Python, SQL basics already known (from Stage 2)
+> **When:** Stage 2 of the roadmap
+> **Pre-requisite:** Python, SQL basics already known (from Stage 1)
 > **What you can build after this:** SaaS products, REST/GraphQL APIs, real-time apps, microservices — and you can deploy them securely to the cloud.
 
 ---
@@ -273,7 +273,7 @@
 ---
 
 <details open>
-<summary>🚀 Phase D — Portfolio & Market Entry &nbsp;|&nbsp; Stage 3 Complete</summary>
+<summary>🚀 Phase D — Portfolio & Market Entry &nbsp;|&nbsp; Stage 2 Complete</summary>
 
 <br>
 
@@ -310,8 +310,8 @@
 
 ---
 
-> **🔗 Next Steps After Stage 3:**
-> Want to build AI systems? → [AI Engineering Track ➔](./05-ai-engineering.md) (Stage 5)
-> Want to build data pipelines? → [Data Engineering Track ➔](./04-data-engineering.md) (Stage 4)
+> **🔗 Next Steps After Stage 2:**
+> Next up is Data Engineering (Stage 3) → [Data Engineering Track ➔](./04-data-engineering.md)
+> After that, AI Engineering (Stage 4) → [AI Engineering Track ➔](./05-ai-engineering.md)
 >
 > **Your backend skills (FastAPI, PostgreSQL, Docker, AWS, CI/CD) are the foundation for BOTH paths.**

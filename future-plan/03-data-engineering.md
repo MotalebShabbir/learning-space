@@ -1,17 +1,17 @@
-# 🏗️ Data Engineering — Stage 4 (⚡ Optional Track)
+# 🏗️ Data Engineering — Stage 3
 
 > **Goal:** Become a Data Engineer capable of designing, building, and maintaining scalable data pipelines, data warehouses, and data lakes.
-> **When:** Optional — After Stage 3 Backend
-> **Status:** ⚡ **Optional.** Take this if you want to add Data Engineering to your toolkit, get a DE job offer, or your AI work involves heavy data pipelines. You can go directly from Stage 3 → Stage 5 (AI Engineering) without this.
+> **When:** Stage 3 (After Backend)
+> **Status:** 🎯 **Core Component.** This is your ultimate career goal. You need these skills to build the data pipelines that feed modern applications and analytics.
 
-### 🔑 Critical Prerequisites from General Backend (Stage 3)
+### 🔑 Critical Prerequisites from General Backend (Stage 2)
 Before starting this stage, you must be extremely comfortable with these specific backend concepts:
 - **Advanced Python:** OOP, Generators (for memory-efficient data processing), and Error Handling.
 - **PostgreSQL Mastery:** Joins, Indexing strategies, Query optimization (EXPLAIN ANALYZE), and Transactions.
 - **Docker:** You must know how to containerize apps and use `docker-compose`, as tools like Airflow and Spark run in containers.
 - **Background Jobs / Queues:** Understanding Redis and task queues (like Celery) is essential before learning Airflow.
 
-> **Why this matters:** Data Analysts consume data, AI Engineers train/use models on data. Data Engineers are the ones who *move, clean, and store* that data reliably at massive scale. Every AI team needs Data Engineers.
+> **Why this matters:** Data Engineers are the ones who *move, clean, and store* data reliably at massive scale. Every modern tech company needs Data Engineers.
 
 ---
 
@@ -124,7 +124,7 @@ Before starting this stage, you must be extremely comfortable with these specifi
 ---
 
 <details open>
-<summary>🟡 Phase 3 — Big Data & Cloud &nbsp;|&nbsp; Steps 6–8</summary>
+<summary>🟡 Phase 3 — Big Data & Spark &nbsp;|&nbsp; Steps 6</summary>
 
 <br>
 
@@ -141,33 +141,6 @@ Before starting this stage, you must be extremely comfortable with these specifi
 - [ ] Handling Data Skew and Partitioning
 - [ ] Databricks (Cloud platform for Spark)
 - [ ] **Project:** Process a 5GB+ dataset using PySpark (on a local cluster or Databricks Community Edition) to find the top 10 most viewed products per category per day.
-
-</details>
-
-<details>
-<summary>Step 7 · Streaming (Real-Time Data)</summary>
-
-<br>
-
-> Batch processing (Airflow/Spark) runs periodically. Streaming runs instantly.
-
-- [ ] Batch vs Streaming concepts
-- [ ] Apache Kafka (Topics, Producers, Consumers, Brokers)
-- [ ] Alternatives: AWS Kinesis, GCP Pub/Sub
-- [ ] Spark Structured Streaming
-- [ ] **Project:** Write a simple Python producer that streams fake transaction data to Kafka, and a consumer that reads it and prints alerts for high-value transactions.
-
-</details>
-
-<details>
-<summary>Step 8 · Cloud, Docker, & DataOps</summary>
-
-<br>
-
-- [ ] **Docker:** Containerize your Python scripts and Airflow setup.
-- [ ] **Infrastructure as Code (IaC):** Terraform basics (deploying an S3 bucket or Snowflake database via code).
-- [ ] **CI/CD:** GitHub Actions for dbt (run dbt test on every Pull Request).
-- [ ] **Data Governance & Data Lineage:** Concepts of tracking where data came from.
 
 </details>
 
