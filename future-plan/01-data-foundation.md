@@ -1,174 +1,180 @@
-# 📊 Data Foundation — Stage 1 (Market Entry Path)
+# 🛠️ Data Foundation — Stage 1 (Core Engineering Path)
 
-> **Goal:** Acquire marketable skills in Python and SQL in the shortest possible time and start earning.
+> **Goal:** Build the essential data manipulation, database, and programming foundation required for Backend, Data Engineering, and AI Engineering.
 > **When:** Stage 1 of the roadmap
-> **Why this first:** Becoming a Data Engineer takes 6-8 months. But Python + SQL can land you backend intern or data extraction work in 2-3 months.
+> **Why this first:** Before building backend systems or training AI models, you must know how to fetch, process, and store data programmatically. This stage replaces pure 'analyst' tools (like PowerBI) with engineering fundamentals.
 
 ---
 
 <details open>
-<summary>🟢 Stage 1 — SQL + Python &nbsp;|&nbsp; Core Data Foundation</summary>
+<summary>🟢 Stage 1 (Part 1) — Python, Formats & CLI &nbsp;|&nbsp; The Prerequisites</summary>
 
 <br>
 
-> **Target:** Build the essential programming and query foundation required for data engineering.
+> **Target:** Get comfortable with the command line, version control, and programmatically handling different data formats using Python.
 
 ---
 
 <details>
-<summary>Step 1 · SQL Fundamentals (Week 1–3)</summary>
+<summary>Step 1 · Command Line & Git Basics (Week 1)</summary>
 
 <br>
 
-> SQL is the universal language of data. Backend Engineer, Data Engineer — everyone needs it. Learn it once, use it forever.
+> Every backend and data engineer lives in the terminal. Learn this before writing code.
 
-**Basic Queries**
-- [ ] SELECT, WHERE, ORDER BY, LIMIT
-- [ ] AND, OR, NOT, IN, BETWEEN, LIKE
-- [ ] DISTINCT, AS (aliases)
-- [ ] NULL handling — IS NULL, COALESCE, IFNULL
+**Linux CLI (Bash)**
+- [ ] Navigation: `cd`, `ls`, `pwd`, `mkdir`, `touch`, `rm`
+- [ ] File Inspection: `cat`, `less`, `head`, `tail`, `grep`
+- [ ] Permissions & execution: `chmod`, `./script.sh`
 
-**Aggregation (Most Used in Real Jobs)**
-- [ ] GROUP BY + Aggregate functions (COUNT, SUM, AVG, MIN, MAX)
-- [ ] HAVING — filter after grouping
-- [ ] **This is the #1 topic asked in interviews**
-
-**Joins (Critical)**
-- [ ] INNER JOIN — matching records
-- [ ] LEFT JOIN — all from left + matching from right
-- [ ] RIGHT JOIN, FULL OUTER JOIN
-- [ ] Self JOIN
-- [ ] **Practice:** Write complex joins across 2-3 related tables
-
-**Intermediate**
-- [ ] Subqueries — WHERE IN (SELECT ...)
-- [ ] CTEs (Common Table Expressions) — WITH clause
-- [ ] Window Functions — ROW_NUMBER(), RANK(), LAG(), LEAD(), SUM() OVER()
-- [ ] CASE WHEN — conditional logic in SQL
-- [ ] String functions — CONCAT, SUBSTRING, TRIM, UPPER, LOWER
-
-**Portfolio Project:**
-- [ ] **Project 1:** Create a sample ecommerce database (PostgreSQL) → Answer 10 business questions with SQL → Export results
-- [ ] Create a GitHub repo — "SQL Business Analysis Portfolio"
-
-**Setup:** PostgreSQL locally (or use [SQLiteOnline](https://sqliteonline.com/) to start)
-**Resource:** [SQLBolt](https://sqlbolt.com/) — Interactive, free, best for beginners
-**Resource:** [Mode Analytics SQL Tutorial](https://mode.com/sql-tutorial/) — Real-world focused
-**Practice:** [HackerRank SQL](https://www.hackerrank.com/domains/sql) — Solve 2-3 problems daily
+**Git & GitHub**
+- [ ] Version Control basics: `git init`, `git add`, `git commit`
+- [ ] Branching: `git branch`, `git checkout` / `git switch`, `git merge`
+- [ ] Remote repositories: `git push`, `git pull`, `git clone`
+- [ ] **Practice:** Create a GitHub repo and push a sample text file via terminal.
 
 </details>
 
 <details>
-<summary>Step 2 · Python Fundamentals (Week 3–5)</summary>
+<summary>Step 2 · Python Fundamentals (Week 2–3)</summary>
 
 <br>
 
-> With your C++ background, Python will feel incredibly easy. The syntax is much simpler.
+> Python is the lingua franca of Data and AI. With your programming background, this will be quick.
 
-- [ ] Variables, Data Types (str, int, float, bool, list, dict, tuple, set)
-- [ ] Control Flow — if/elif/else, for, while
-- [ ] Functions — def, *args, **kwargs, return
-- [ ] List Comprehension — `[x for x in range(10) if x > 5]`
-- [ ] File I/O — read/write CSV, JSON, text files
-- [ ] Error handling — try/except
-- [ ] Virtual environments — venv, pip
-- [ ] **Mini Project:** CSV file reader — read a sales CSV → calculate totals → print report
+- [ ] Variables, Data Types (str, int, float, list, dict, set)
+- [ ] Control Flow — `if/else`, `for`, `while`
+- [ ] Functions — `def`, `*args`, `**kwargs`
+- [ ] List & Dict Comprehensions
+- [ ] Error handling — `try/except/finally`
+- [ ] Virtual Environments — `venv`, `pip` (Crucial for managing dependencies)
 
-**Resource:** [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) — Free, practical
-**Resource:** [Python.org Official Tutorial](https://docs.python.org/3/tutorial/) — Reference
+**Resource:** [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+</details>
+
+<details>
+<summary>Step 3 · Data Formats & APIs (Week 4)</summary>
+
+<br>
+
+> Data rarely comes in neat Excel files. Learn to fetch and parse data programmatically.
+
+**Core Data Formats**
+- [ ] **CSV:** Reading and writing using Python's `csv` module.
+- [ ] **JSON:** The language of the web. Nested dictionaries, `json.loads()`, `json.dumps()`.
+- [ ] **Parquet:** Introduction to columnar storage (used heavily in Data Engineering).
+
+**APIs & Web Scraping**
+- [ ] REST APIs basics: GET vs POST, HTTP Status Codes.
+- [ ] Fetching data using Python `requests` library.
+- [ ] Intro to Web Scraping (Optional but helpful): `BeautifulSoup` basics.
+- [ ] **Mini Project:** Write a Python script to fetch user data from a public API (e.g., JSONPlaceholder), parse the JSON, and save it locally as a CSV file.
+
+</details>
 
 </details>
 
 ---
 
 <details open>
-<summary>🟡 Stage 1 (Part 2) — Pandas + Advanced Analytics &nbsp;|&nbsp; Level Up</summary>
+<summary>🟡 Stage 1 (Part 2) — Databases & Data Processing &nbsp;|&nbsp; Core Foundation</summary>
 
 <br>
 
-> **Target:** Upgrade to Python-powered Data Manipulation.
-> **Why Python:** Python handles unlimited data and it opens the door to Backend and Data Engineering.
+> **Target:** Master how to store, query, and process large datasets.
 
 ---
 
 <details>
-<summary>Step 3 · Pandas + Data Manipulation (Week 5–8)</summary>
+<summary>Step 4 · SQL & Relational Databases (Week 5–7)</summary>
 
 <br>
 
-> Pandas = Python's Excel. Everything you did in Excel, you'll do in Python — but with 100x more data.
+> SQL is the universal language of data. Backend, Data, or AI Engineer — everyone needs it.
 
-- [ ] DataFrame basics — read_csv, head(), info(), describe()
-- [ ] Filtering — `df[df['sales'] > 1000]`
-- [ ] Sorting — sort_values()
-- [ ] GroupBy + Aggregation — `.groupby('category').sum()` (Python version of Excel Pivot Tables)
-- [ ] Merge/Join — `pd.merge()` (Python version of SQL JOIN)
-- [ ] Pivot Tables — `df.pivot_table()`
-- [ ] Handling missing data — fillna(), dropna()
-- [ ] String operations — `.str.contains()`, `.str.split()`
-- [ ] Date/Time handling — pd.to_datetime(), .dt accessor
-- [ ] **Project 2:** Clean a messy real-world dataset using Pandas instead of Excel — see how much faster it is
+**Basic to Intermediate SQL (PostgreSQL)**
+- [ ] SELECT, WHERE, ORDER BY, LIMIT, DISTINCT
+- [ ] Aggregation: GROUP BY, HAVING, COUNT, SUM, AVG
+- [ ] Joins: INNER, LEFT, RIGHT, FULL OUTER
+- [ ] Subqueries and CTEs (WITH clause)
 
-**Resource:** [Kaggle — Pandas Course](https://www.kaggle.com/learn/pandas) — Free, hands-on
-**Resource:** [Pandas Documentation](https://pandas.pydata.org/docs/) — Reference
-
-</details>
+**Advanced SQL & Database Design**
+- [ ] Window Functions: ROW_NUMBER(), RANK(), SUM() OVER()
+- [ ] Performance: EXPLAIN ANALYZE, Indexing strategies
+- [ ] Normalization: 1NF, 2NF, 3NF
+- [ ] **Practice:** [SQLBolt](https://sqlbolt.com/) (Beginner), [DataLemur](https://datalemur.com/) (Advanced)
 
 </details>
 
 <details>
-<summary>Step 4 · Advanced SQL + Database Skills (Week 8–10)</summary>
+<summary>Step 5 · Intro to NoSQL Databases (Week 8)</summary>
 
 <br>
 
-> You learned basic SQL in Step 1. Now go to the advanced level — this is what bridges you to Backend and DE.
+> Not all data fits in tables. Understand when to break the SQL rules.
 
-- [ ] Advanced Window Functions — PARTITION BY, running totals, moving averages
-- [ ] Complex CTEs — recursive CTEs, chained CTEs
-- [ ] Subqueries vs Joins — performance comparison
-- [ ] EXPLAIN ANALYZE — query performance tuning
-- [ ] Indexing strategies — when and why
-- [ ] Database design — normalization (1NF, 2NF, 3NF), star schema
-- [ ] **Project 3:** Build a complete PostgreSQL analytics database — design schema → load sample data → write 20 complex queries
-
-**Practice:** [DataLemur](https://datalemur.com/) — Real interview SQL questions
-**Practice:** [StrataScratch](https://www.stratascratch.com/) — Company-specific SQL problems
+- [ ] Relational (SQL) vs Non-Relational (NoSQL)
+- [ ] Document Stores: **MongoDB** basics (JSON-like documents, collections)
+- [ ] Key-Value Stores: **Redis** basics (Caching, fast reads)
+- [ ] **Mini Project:** Spin up a free MongoDB Atlas cluster, connect via Python (`pymongo`), and insert/query JSON data.
 
 </details>
 
 <details>
-<summary>Step 5 · First Income — Backend Intern / Junior Dev (Week 10+)</summary>
+<summary>Step 6 · Data Processing with Pandas (Week 9–10)</summary>
 
 <br>
 
-> You know Python + SQL + Pandas. Time to start looking for work.
+> Pandas allows you to handle and clean massive datasets entirely through code.
 
-**Upwork Profile Update:**
-- [ ] Title: "Python Developer | Data Extraction & Scripting"
-- [ ] Add new projects to your portfolio
+- [ ] DataFrame basics — `read_csv`, `read_json`, `head()`, `info()`
+- [ ] Filtering, Sorting, and GroupBy
+- [ ] Merge/Join DataFrames
+- [ ] Handling missing data — `fillna()`, `dropna()`
+- [ ] **Resource:** [Kaggle — Pandas Course](https://www.kaggle.com/learn/pandas)
 
-**New Job Types to Target:**
-- [ ] "Web scraping + analysis" — collect data from websites → analyze
-- [ ] "Database query optimization" — fix slow queries
-- [ ] "Automated reporting" — Python scripts for auto-generated reports
-- [ ] "Data cleaning & formatting"
+</details>
 
-**Job Applications (Parallel):**
-- [ ] "Backend Intern (Python)" — remote positions
-- [ ] "Junior Data Engineer" — focusing on Python and SQL pipelines
+<details>
+<summary>Step 7 · Basic Applied Statistics (Week 11)</summary>
+
+<br>
+
+> Before passing data to AI models, you must understand its statistical properties.
+
+- [ ] Descriptive Stats: Mean, Median, Mode, Variance, Standard Deviation
+- [ ] Probability basics & Normal Distribution
+- [ ] Outlier detection and data correlation
+- [ ] *Note: No need for deep math yet, just understand the concepts to spot bad data.*
 
 </details>
 
 </details>
+
+---
+
+<details open>
+<summary>🚀 Capstone — Build an ETL Pipeline (Week 12)</summary>
+
+<br>
+
+> **Target:** Combine Python, APIs, Pandas, and SQL into a single engineering project.
+
+- [ ] **Extract:** Write a Python script to pull live data from a public REST API (e.g., Weather API, Crypto API).
+- [ ] **Transform:** Load the JSON data into a Pandas DataFrame, clean missing values, drop unnecessary columns, and convert timestamps.
+- [ ] **Load:** Connect to a PostgreSQL (or MongoDB) database using Python and insert the cleaned data.
+- [ ] **Deploy:** Push the script to GitHub and run it via command line.
+
+> **Why this matters:** This is a miniature Data Engineering pipeline. Understanding this proves you have a solid "Data Foundation."
 
 </details>
 
 ---
 
 > **🔗 Next Stages:**
-> Stage 1 complete? → [Backend Engineering Track ➔](./02-backend-engineering.md) (Stage 2)
+> Data Foundation complete? → [Backend Engineering Track ➔](./02-backend-engineering.md) (Stage 2)
 > Backend complete? → [Data Engineering Track ➔](./03-data-engineering.md) (Stage 3)
 
 ---
 
-> **Remember:** Don't stop climbing just because the current step feels comfortable. Keep your ultimate goal in sight!
+> **Remember:** This is the bedrock of your engineering journey. Master these fundamentals, and the advanced frameworks will come easily.
