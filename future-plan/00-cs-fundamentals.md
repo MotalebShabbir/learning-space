@@ -12,17 +12,17 @@
 
 | Topic | Total | Done |
 |-------|-------|------|
-| Data Structures | 14 | 0 |
-| Algorithms | 18 | 0 |
+| Data Structures | 16 | 1 |
+| Algorithms | 34 | 5 |
 | Complexity Theory | 3 | 0 |
 | Low Level | 3 | 0 |
-| Design Patterns | 6 | 0 |
-| System Design | 18 | 0 |
+| Design Patterns | 5 | 0 |
+| System Design | 17 | 0 |
 | Databases | 16 | 0 |
 | Networking | 7 | 0 |
 | Security | 5 | 0 |
-| How Computers Work | 8 | 0 |
-| **Total** | **98** | **0** |
+| How Computers Work | 12 | 0 |
+| **Total** | **118** | **6** |
 
 ---
 
@@ -91,7 +91,7 @@
 <br>
 
 ### Linear
-- [ ] ⭐ Array
+- [x] ⭐ Array
 - [ ] ⭐ Linked List
 - [ ] ⭐ Stack
 - [ ] ⭐ Queue
@@ -122,11 +122,11 @@
 <br>
 
 ### Asymptotic Notation
-- [ ] ⭐ Big O
-- [ ] ⭐ Constant — O(1)
-- [ ] ⭐ Logarithmic — O(log n)
-- [ ] ⭐ Linear — O(n)
-- [ ] ⭐ Polynomial — O(n²)
+- [x] ⭐ Big O
+- [x] ⭐ Constant — O(1)
+- [x] ⭐ Logarithmic — O(log n)
+- [x] ⭐ Linear — O(n)
+- [x] ⭐ Polynomial — O(n²)
 
 ### Searching
 - [ ] ⭐ Binary Search
